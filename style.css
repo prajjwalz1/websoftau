@@ -207,7 +207,7 @@ img {
 
 #preloader {
     overflow: hidden;
-    background-color: #211b31;
+    background-color: #69349c;
     height: 100%;
     left: 0;
     position: fixed;
@@ -221,7 +221,7 @@ img {
     -webkit-animation: 3000ms linear 0s normal none infinite running mosh-preloader;
     animation: 3000ms linear 0s normal none infinite running mosh-preloader;
     background-color: transparent;
-    border-color: #f1f2f3 #f1f2f3 #4a7aec;
+    border-color: #f1f2f3 #f1f2f3 #000000;
     border-radius: 50%;
     border-style: solid;
     border-width: 4px;
@@ -260,7 +260,7 @@ img {
     font-size: 24px;
     right: 30px;
     width: 40px;
-    background: #4a7aec;
+    background: #000000;
     color: #fff;
     text-align: center;
     height: 40px;
@@ -311,7 +311,7 @@ img {
 }
 
 .mosh-btn {
-    background-color: #4a7aec;
+    background-color: #000000;
     min-width: 150px;
     height: 54px;
     padding: 0 30px;
@@ -369,8 +369,8 @@ img {
     z-index: 999;
     top: 0;
     padding: 0 15px;
-    height: 120px;
-    background-color: transparent;
+    height: 100px;
+    background-color: #ffffff;
     -webkit-transition-duration: 700ms;
     transition-duration: 700ms;
 }
@@ -381,7 +381,7 @@ img {
 }
 
 .menu_area #nav .nav-link {
-    color: #fff;
+    color: #030101;
     display: block;
     font-size: 15px;
     -webkit-transition-duration: 500ms;
@@ -403,11 +403,11 @@ img {
 .menu_area #nav .nav-link:hover,
 .menu_area #nav .nav-item.active .nav-link,
 .menu_area .dropdown-item:hover {
-    color: #4a7aec;
+    color: #000000;
 }
 
 .login-register-btn a {
-    color: #4a7aec;
+    color: #000000;
     display: inline-block;
     font-weight: 500;
 }
@@ -459,7 +459,7 @@ img {
 /* Sticky CSS */
 
 .header_area.sticky {
-    background-color: #5c9fd7;
+    background-color: #ffffff;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
     height: 80px;
     position: fixed;
@@ -486,7 +486,7 @@ img {
 }
 
 .single-hero-slide {
-    height: 1200px;
+    height: 800px;
     width: 100%;
     position: relative;
     z-index: 1;
@@ -515,7 +515,7 @@ img {
     position: absolute;
     width: 60px;
     height: 60px;
-    background-color: transparent;
+    background-color: #000000;
     line-height: 60px;
     text-align: center;
     top: 50%;
@@ -534,7 +534,7 @@ img {
 
 .hero-slides .owl-prev:hover,
 .hero-slides .owl-next:hover {
-    background-color: #4a7aec;
+    background-color: #000000;
 }
 
 /* -------------------------
@@ -557,7 +557,7 @@ img {
 
 .mosh-service-slides .center .single-service-area h2,
 .single-service-area:hover h2 {
-    color: #4a7aec;
+    color: #000000;
 }
 
 .single-service-area h4 {
@@ -600,15 +600,16 @@ img {
 ------------------------- */
 
 .mosh-features-area {
-    background-color: #211b31;
+    background-color: #69349c;
     position: relative;
     z-index: 1;
+    margin-top: 5px;
 }
 
 .features-img > img {
     width: 40%;
     position: absolute;
-    bottom: -30px;
+    bottom: 30px;
     left: 30px;
     z-index: 9;
 }
@@ -637,7 +638,7 @@ img {
     position: relative;
     width: 0px;
     height: 100%;
-    background: #4a7aec;
+    background: #000000;
     z-index: 1;
 }
 
@@ -649,7 +650,7 @@ img {
     margin-top: -35px;
     padding: 2px 4px;
     font-size: 15px;
-    color: #4a7aec;
+    color: #000000;
     left: 0px;
     position: absolute;
     z-index: 2;
@@ -713,7 +714,7 @@ img {
 }
 
 .portfolio-menu > p:hover {
-    color: #4a7aec;
+    color: #000000;
 }
 
 .single_gallery_item {
@@ -801,7 +802,7 @@ img {
 }
 
 .single-workflow-area:hover h2 {
-    background-color: #4a7aec;
+    background-color: #000000;
     color: #fff;
 }
 
@@ -826,7 +827,7 @@ img {
 }
 
 .mosh-workflow-slides .owl-dot.active {
-    background-color: #4a7aec;
+    background-color: #000000;
 }
 
 /* -------------------------
@@ -866,7 +867,7 @@ img {
 }
 
 .single-accordion h6 a {
-    background-color: #4a7aec;
+    background-color: #000000;
     border-radius: 0;
     color: #fff;
     display: block;
@@ -879,7 +880,7 @@ img {
 }
 
 .single-accordion h6 a.collapsed {
-    background-color: #4a7aec;
+    background-color: #000000;
     color: #fff;
 }
 
@@ -931,7 +932,7 @@ span.accor-open {
 .footer-area {
     position: relative;
     z-index: 1;
-    background-color: #211b31;
+    background-color: #69349c;
 }
 
 .single-footer-widget h5 {
@@ -951,7 +952,7 @@ span.accor-open {
 }
 
 .single-footer-widget ul > li > a:hover {
-    color: #ffffff;
+    color: #000000;
 }
 
 .copyright-text > p {
@@ -994,7 +995,7 @@ span.accor-open {
 
 .footer-single--blog-post .blog-post-date > p:hover,
 .footer-single--blog-post .blog-post-title > h6:hover {
-    color: #4a7aec;
+    color: #000000;
 }
 
 .footer-single-contact-info .contact-icon {
@@ -1060,7 +1061,7 @@ span.accor-open {
 }
 
 .few-words-contents {
-    background-color: #211b31;
+    background-color: #69349c;
 }
 
 .few-words-text .section-heading {
@@ -1189,7 +1190,7 @@ span.accor-open {
 
 .single-team-slide:hover .team-meta-info span,
 .team-social-info > a:hover {
-    color: #4a7aec;
+    color: #000000;
 }
 
 .single-team-slide:hover .team-thumbnail:after {
@@ -1264,7 +1265,7 @@ span.accor-open {
     padding: 0 30px;
     font-size: 14px;
     color: #fff;
-    background-color: #4a7aec;
+    background-color: #000000;
     position: absolute;
     right: 20%;
     font-weight: 700;
@@ -1285,7 +1286,7 @@ span.accor-open {
 ------------------------- */
 
 .mosh-clients-testimonials-area {
-    background-color: #211b31;
+    background-color: #69349c;
     position: relative;
     z-index: 1;
 }
@@ -1310,7 +1311,7 @@ span.accor-open {
     height: 52px;
     margin: 0 auto 20px;
     border-radius: 50%;
-    border: 3px solid #211b31;
+    border: 3px solid #69349c;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     position: relative;
@@ -1398,7 +1399,7 @@ span.accor-open {
 }
 
 .single-testimonial-area:hover .testimonials-meta .testimonial-thumb {
-    border: 3px solid #4a7aec;
+    border: 3px solid #000000;
 }
 
 /* Sonar CSS */
@@ -1429,10 +1430,10 @@ span.accor-open {
     50% {
         opacity: 0.5;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-        box-shadow: 0 0 0 3px #4a7aec, 0 0 5px 5px #4a7aec, 0 0 0 5px #4a7aec;
+        box-shadow: 0 0 0 3px #000000, 0 0 5px 5px #000000, 0 0 0 5px #000000;
     }
     100% {
-        box-shadow: 0 0 0 3px #4a7aec, 0 0 5px 5px #4a7aec, 0 0 0 5px #4a7aec;
+        box-shadow: 0 0 0 3px #000000, 0 0 5px 5px #000000, 0 0 0 5px #000000;
         -webkit-transform: scale(1.4);
         transform: scale(1.4);
         opacity: 0;
@@ -1449,10 +1450,10 @@ span.accor-open {
     50% {
         opacity: 0.5;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-        box-shadow: 0 0 0 3px #4a7aec, 0 0 5px 5px #4a7aec, 0 0 0 5px #4a7aec;
+        box-shadow: 0 0 0 3px #000000, 0 0 5px 5px #000000, 0 0 0 5px #000000;
     }
     100% {
-        box-shadow: 0 0 0 3px #4a7aec, 0 0 5px 5px #4a7aec, 0 0 0 5px #4a7aec;
+        box-shadow: 0 0 0 3px #000000, 0 0 5px 5px #000000, 0 0 0 5px #000000;
         -webkit-transform: scale(1.4);
         transform: scale(1.4);
         opacity: 0;
@@ -1520,7 +1521,7 @@ span.accor-open {
 }
 
 .post-meta h6 a:hover {
-    color: #4a7aec;
+    color: #000000;
 }
 
 .single-blog > a {
@@ -1603,7 +1604,7 @@ span.accor-open {
 .latest-blog-post-content h6 > a:hover,
 .blog-post-archives ul > li > a:hover,
 .blog-post-categories ul > li > a:hover {
-    color: #4a7aec;
+    color: #000000;
 }
 
 .single-latest-blog-post {
@@ -1667,7 +1668,7 @@ span.accor-open {
 }
 
 .contact-social-info > a:hover {
-    color: #4a7aec;
+    color: #000000;
 }
 
 #googleMap {
@@ -1685,16 +1686,16 @@ span.accor-open {
 }
 
 .mosh-btn.mosh-btn-2 {
-    border: 2px solid #4a7aec;
+    border: 2px solid #000000;
     color: #404551;
     background-color: #fff;
 }
 
 .mosh-btn.mosh-btn-2:hover,
 .mosh-btn.mosh-btn-2:focus {
-    border: 2px solid #4a7aec;
+    border: 2px solid #000000;
     color: #fff;
-    background-color: #4a7aec;
+    background-color: #000000;
 }
 
 .mosh-btn.mosh-btn-3 {
@@ -1707,7 +1708,7 @@ span.accor-open {
 .mosh-btn.mosh-btn-3:hover,
 .mosh-btn.mosh-btn-3:focus {
     color: #fff;
-    background-color: #4a7aec;
+    background-color: #000000;
 }
 
 .mosh-cool-facts-area {
@@ -1715,7 +1716,7 @@ span.accor-open {
 }
 
 .mosh-cool-facts-area .counter-area > h3 {
-    color: #4a7aec;
+    color: #000000;
     font-size: 60px;
     margin-bottom: 0;
     line-height: 1;
