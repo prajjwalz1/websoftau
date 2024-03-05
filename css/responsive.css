@@ -35,7 +35,7 @@
     #mosh-navbar {
         padding: 30px;
         border-radius: 5px;
-        background-color: #211b31;
+        background-color: #ffffff;
         text-align: left;
     }
     .header_area.sticky .navbar {
@@ -252,7 +252,7 @@
     }
 }
 
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 480px) and (max-width: 700px) {
     .welcome_area,
     .single-hero-slide {
         height: 700px;
