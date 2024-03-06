@@ -680,11 +680,24 @@ img {
     z-index: 1;
     -webkit-transition-duration: 750ms;
     transition-duration: 750ms;
+    border: 2px solid transparent; /* Add border */
 }
+
 
 .single-more-service-area:hover {
     box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(100deg, #69349c 34%, #871c57 100%);
+    
 }
+
+.single-more-service-area:hover h4{
+    color: white;
+}
+/* .single-more-service-area> {
+    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.1);
+    background-image:linear-gradient(100deg, #69349c 34%, #bd267a 100%);
+    color: white;
+} */
 
 .more-service-content > img {
     margin-bottom: 40px;
@@ -693,7 +706,9 @@ img {
 .more-service-content > h4 {
     margin-bottom: 30px;
     text-transform: capitalize;
+    
 }
+
 
 /* -------------------------
 :: 8.0 Portfolio Area
